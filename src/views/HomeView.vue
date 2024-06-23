@@ -1,5 +1,5 @@
 <script setup>
-import { onBeforeMount, onMounted, reactive } from "vue";
+import { onBeforeMount, reactive } from "vue";
 import pokemon from "@/api/pokemon";
 import PokemonCard from "@/components/PokemonCard.vue";
 import Spinner from "@/components/Spinner.vue";
